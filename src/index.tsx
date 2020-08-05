@@ -701,17 +701,23 @@ const StyledEditor = styled("div")<{
   h5,
   h6 {
     margin: 1em 0 0.5em;
-    font-weight: 500;
+    font-weight: 700;
     cursor: default;
+  }
 
-    &:not(.placeholder):before {
-      display: ${props => (props.readOnly ? "none" : "block")};
-      position: absolute;
-      font-family: ${props => props.theme.fontFamilyMono};
-      color: ${props => props.theme.textSecondary};
-      font-size: 13px;
-      left: -24px;
-    }
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.1rem;
   }
 
   a:first-child {
@@ -723,29 +729,6 @@ const StyledEditor = styled("div")<{
     h6 {
       margin-top: 0;
     }
-  }
-
-  h1:not(.placeholder):before {
-    content: "H1";
-    line-height: 3em;
-  }
-  h2:not(.placeholder):before {
-    content: "H2";
-    line-height: 2.8em;
-  }
-  h3:not(.placeholder):before {
-    content: "H3";
-    line-height: 2.3em;
-  }
-  h4:not(.placeholder):before {
-    content: "H4";
-    line-height: 2.2em;
-  }
-  h5:not(.placeholder):before {
-    content: "H5";
-  }
-  h6:not(.placeholder):before {
-    content: "H6";
   }
 
   .heading-name {
@@ -777,7 +760,6 @@ const StyledEditor = styled("div")<{
     position: absolute;
     transition: opacity 100ms ease-in-out;
     font-family: ${props => props.theme.fontFamilyMono};
-    font-size: 22px;
     left: -1.3em;
 
     &:focus,
@@ -927,7 +909,6 @@ const StyledEditor = styled("div")<{
     border: 1px solid ${props => props.theme.codeBorder};
     padding: 3px 4px;
     font-family: ${props => props.theme.fontFamilyMono};
-    font-size: 85%;
   }
 
   mark {
@@ -942,7 +923,7 @@ const StyledEditor = styled("div")<{
 
     select,
     button {
-      font-size: 13px;
+      font-size: 0.65rem;
       display: none;
       position: absolute;
       border-radius: 4px;
@@ -980,7 +961,7 @@ const StyledEditor = styled("div")<{
 
     -webkit-font-smoothing: initial;
     font-family: ${props => props.theme.fontFamilyMono};
-    font-size: 13px;
+    font-size: 0.65rem;
     direction: ltr;
     text-align: left;
     white-space: pre;
@@ -997,7 +978,7 @@ const StyledEditor = styled("div")<{
     margin: 0;
 
     code {
-      font-size: 13px;
+      font-size: 0.65rem;
       background: none;
       padding: 0;
       border: 0;

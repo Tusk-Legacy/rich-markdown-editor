@@ -247,7 +247,7 @@ export default class Image extends Node {
 const Caption = styled.p`
   border: 0;
   display: block;
-  font-size: 13px;
+  font-size: 0.65rem;
   font-style: italic;
   color: ${props => props.theme.textSecondary};
   padding: 2px 0;
