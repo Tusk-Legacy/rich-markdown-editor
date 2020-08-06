@@ -1236,8 +1236,8 @@ const StyledEditor = styled("div")<{
     outline: none;
     border: 0;
     line-height: 1;
-    margin-top: -6px;
-    left: -34px;
+    margin-top: 0px;
+    left: -1rem;
 
     &:hover,
     &:focus {
