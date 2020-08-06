@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Portal } from "react-portal";
-import { isEqual } from "lodash";
+import isEqual from "lodash/isEqual";
 import { EditorView } from "prosemirror-view";
 import styled from "styled-components";
 
