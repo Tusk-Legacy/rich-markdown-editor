@@ -16,7 +16,7 @@ const colors = {
 export const base = {
   ...colors,
   fontFamily:
-    "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen, Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif",
+    "system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'",
   fontFamilyMono:
     "'SFMono-Regular',Consolas,'Liberation Mono', Menlo, Courier,monospace",
   fontWeight: 400,
