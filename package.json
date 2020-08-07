@@ -1,10 +1,11 @@
 {
-  "name": "rich-markdown-editor",
+  "name": "@tusk-legacy/rich-markdown-editor",
   "description": "A rich text editor with Markdown shortcuts",
   "version": "10.4.0",
   "main": "dist/lib/index.js",
   "typings": "dist/@types/index.d.ts",
   "license": "BSD-3-Clause",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/Tusk-Legacy" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
@@ -82,7 +83,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/outline/rich-markdown-editor.git"
+    "url": "git+https://github.com/Tusk-Legacy/rich-markdown-editor.git"
   },
   "keywords": [
     "editor",
